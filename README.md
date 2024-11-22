@@ -24,6 +24,24 @@
 
 将以上文件添加到工程中
 
+## How to use(STC)
+打开STC库函数空白工程 
+
+复制OLED目录到工程目录下 
+
+添加文件夹内的文件到工程 
+
+在Conf.h文件添加对应驱动头文件 
+
+```C
+#include "oled.h"
+#include "STC8G_H_I2C.h"
+#include "STC8G_H_Delay.h"
+#include "STC8G_H_GPIO.h"
+#include "STC8G_H_Switch.h"
+```
+
+
 ### 主函数编写顺序
 
 > main.c中要添加```#include "oledpic.h"```（如果你使用```OLED_ShowPic```函数来显示图片）oledfont.h已经包含在oled.c中所以不用再引用 
