@@ -24,7 +24,7 @@
 
 将以上文件添加到工程中
 
-## How to use(STC)
+## How to use(For STC)
 打开STC库函数空白工程 
 
 复制0.91 OLED-SSD1306-STC目录到工程目录下 
@@ -117,3 +117,6 @@
 硬件按配置使用I2C2，使用PlatformIO开发
 [example-F103R8-0.91OLED-PlatformIO](/example-F103R8-0.91OLED-PlatformIO/)
 
+### 使用STC8H8K64U STC库函数
+使用硬件I2C2，SCL->P15 SDA->P14
+[example-STC8H8K64U-0.91OLED](/example-STC8H8K64U-0.91OLED/)
